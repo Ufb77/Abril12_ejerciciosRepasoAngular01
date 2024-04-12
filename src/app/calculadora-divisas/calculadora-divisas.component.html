@@ -1,0 +1,16 @@
+<h1>Calculadora Divisas</h1>
+<p>Euros:  <input type="number" [(ngModel)]="euros"></p>
+<p>Libras:  <input type="number" [(ngModel)]="libras"></p>
+<p>Dólares:  <input type="number" [(ngModel)]="dolares"></p>
+
+<p>
+
+    <button (click)="eurosLibras()">Euros a Libras</button>
+    <button (click)="librasEuros()">Libras a Euros</button>
+    <button (click)="eurosDolares()">Euros a Dólares</button>
+    <button (click)="dolaresEuros()">Dólares a Euros</button>
+    <button (click)="librasDolares()">Libras a Dólares</button>
+    <button (click)="dolaresLibras()">Dólares a Libras</button>
+</p>
+
+<p>{{cantidadFinal}} </p>

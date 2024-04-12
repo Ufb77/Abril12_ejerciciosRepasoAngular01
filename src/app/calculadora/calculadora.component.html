@@ -1,0 +1,13 @@
+<p>Primer número: </p>
+<input type="number" [(ngModel)]="operando1">
+<p>Segundo número: </p>
+<input type="number" [(ngModel)]="operando2">
+
+<p>
+    <button (click)="suma()">+</button>
+    <button (click)="resta()">-</button>
+    <button (click)="multiplicion()">X</button>
+    <button (click)="dividision()">/</button>
+</p>
+
+<p>Resultado: {{resultado}}</p>
